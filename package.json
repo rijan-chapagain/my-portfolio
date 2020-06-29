@@ -2,9 +2,9 @@
   "name": "myportfoliosite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rijan-chapagain.github.io/react-pp/",
+  "homepage": "https://rijan-chapagain.github.io/my-portfolio/",
   "dependencies": {
-    "gh-pages": "^3.0.0",
+    "gh-pages": "^3.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.13.1",
     "react-grid-gallery": "^0.5.5",
