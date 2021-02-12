@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell, List, ListItem } from 'react-mdl';
 import Education from './education';
 import Skills from './skills';
 
@@ -45,7 +45,39 @@ class Resume extends Component {
                 />
                 <hr style={{borderTop: '3px solid #e22947'}} />
 
-              <h2>Volunteer</h2>
+              <h2>Experience</h2>
+                <Education
+                    startYear={2020}
+                    endYear={2021}
+                    schoolName="Junior Software Developer Intern"
+                    companyName= "HeadStart Careers"
+                    schoolDescription={
+                      <ul>
+                      <li typeof="point">
+                        Developing Web application for HeadStart application using React, typescript and node.
+                      </li>
+                      <li>
+                      Building schema, entities, resolvers, and API using Graphql, and TypeOrm.
+                      </li>
+                      <li>
+                      Creating a database using postgres.
+                      </li>
+                      <li>
+                      Writing documentation about each project component.
+                      </li>
+                      <li>
+                      Working from home, daily stand up with the team.
+                      </li>
+                      </ul>
+                      
+                    
+                    
+                    // Building schema, entities, resolvers, and API using Graphql, and TypeOrm.
+                    // 
+                    // Writing documentation about each project component.
+                    // Working from home, daily stand up with the team.
+                  }
+                />
                 <Education
                   startYear={2018}
                   endYear={2019}

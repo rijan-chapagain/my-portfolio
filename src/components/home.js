@@ -1,21 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-// import Gallery from 'react-photo-gallery';
-// import ImageGallery from 'react-image-gallery';
-
-// import { Link } from 'react-router-dom';
-
 
 class Home extends Component {
   render() {
-
-    // const images = [
-    //   {
-    //     original: 'http://lorempixel.com/1000/600/nature/3/',
-    //     thumbnail: 'http://lorempixel.com/250/150/nature/3/'
-    //   }
-    // ]
-
 
     return(
       <div style={{width: '100%', margin: 'auto'}}>
