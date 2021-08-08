@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
-import javaLogo from "../img/java-logo-wide.jpg";
-import nodeLogo from "../img/nodejs-logo.png";
-import phpLogo from "../img/PHPLogo.svg";
-import reactLogo from "../img/react-logo.jpg";
+// import javaLogo from "/img/java-logo-wide.jpg";
+// import nodeLogo from "/img/nodejs-logo.png";
+// import phpLogo from "/img/php_logo.jpg";
+// import reactLogo from "/img/react-logo.jpg";
 
 
 class Projects extends Component {
@@ -19,7 +19,7 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Node Project 1 */}
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: `url(${nodeLogo}) center / cover` }} >Weather Forecast</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: `url(/img/nodejs-logo.png) center / cover` }} >Weather Forecast</CardTitle>
             <CardText>
               Weather forcast app is about visualization of weather data in SPA using Node.js, AJAX, jQuery, HTML, CSS, and XSLT.
             </CardText>
@@ -33,7 +33,7 @@ class Projects extends Component {
 
           {/* Node Project 2 */}
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: `url(${nodeLogo}) center / cover` }} >Student Record System</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: `url(/img/nodejs-logo.png) center / cover` }} >Student Record System</CardTitle>
             <CardText>
               Student Record System (SRS) is Web client and server architecture- based application, where the server is implemented using Node.js. The client will be a Web browser & communication between the client and server will be via the HTTP protocol.
             </CardText>
@@ -47,7 +47,7 @@ class Projects extends Component {
 
           {/* Node Project 3 */}
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: `url(${nodeLogo}) center / cover` }}>Food Tracker</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: `url(/img/nodejs-logo.png) center / cover` }}>Food Tracker</CardTitle>
             <CardText>
               Food Tracker app stores the list of items which can be tracked in future.
             </CardText>
@@ -65,7 +65,7 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* React Project 1 */}
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: `url(${reactLogo}) center / cover` }} >Restaurent reactApp</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: `url(/img/react-logo.jpg) center / cover` }} >Restaurent reactApp</CardTitle>
             <CardText>
               Restaurant application developed using React. This app allows restaurants to display insights to customers by allowing table reservation, menu, and gallery of food.
             </CardText>
@@ -79,7 +79,7 @@ class Projects extends Component {
 
           {/* React Project 2 */}
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: `url(${reactLogo}) center / cover` }} >Personal portfolio</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: `url(/img/react-logo.jpg) center / cover` }} >Personal portfolio</CardTitle>
             <CardText>
               Personal portfolio application developed using React. This app include resume, information about projects and contact details.
             </CardText>
@@ -97,7 +97,7 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* PHP Project 1 */}
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ height: '176px', background: `url(${phpLogo}) center / cover` }} >Hiring Website</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: `url(/img/php_logo.jpg) center / cover` }} >Hiring Website</CardTitle>
             <CardText>
               Hiring website is created using PHP, CSS and JavaScript.
             </CardText>
@@ -111,7 +111,7 @@ class Projects extends Component {
 
           {/* PHP Project 2 */}
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ height: '176px', background: `url(${phpLogo}) center / cover` }} >Sales Web</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: `url(/img/php_logo.jpg) center / cover` }} >Sales Web</CardTitle>
             <CardText>
               Sales Web website  is a part of student project of unit ICT286. It uses PHP, SQL, JS, HTML and CSS.
             </CardText>
@@ -125,7 +125,7 @@ class Projects extends Component {
 
           {/* PHP Project 3 */}
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ height: '176px', background: `url(${phpLogo}) center / cover` }} >Visit Nepal</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: `url(/img/php_logo.jpg) center / cover` }} >Visit Nepal</CardTitle>
             <CardText>
               VisitNepal collects nepal visitors data. It uses PHP, JavaScript, SQL, HTML and CSS.
             </CardText>
@@ -144,7 +144,7 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* JAVA Project 1 */}
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: `url(${javaLogo}) center / cover` }} >Parking Management System</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: `url(/img/java-logo-wide.jpg) center / cover` }} >Parking Management System</CardTitle>
             <CardText>
               Parking Management System application is a student project of unit ICT167. It designed completely in GUI using JAVA.
             </CardText>
@@ -158,7 +158,7 @@ class Projects extends Component {
 
           {/* JAVA Project 2 */}
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#000', height: '176px', background: `url(${javaLogo}) center/cover` }} >Hangman Game</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: `url(/img/java-logo-wide.jpg) center/cover` }} >Hangman Game</CardTitle>
             <CardText>
               Hangman game is a student project of unit ICT167, created in JAVA using file I/O.
             </CardText>
