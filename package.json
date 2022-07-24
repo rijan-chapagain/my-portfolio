@@ -5,12 +5,19 @@
   "author": "Rijan Chapagain",
   "homepage": "https://rijan-chapagain.github.io/my-portfolio/",
   "dependencies": {
+    "@types/jest": "^28.1.6",
+    "@types/node": "^18.0.6",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-mdl": "^1.7.31",
+    "@types/react-router-dom": "^5.3.3",
     "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-mdl": "^2.1.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^4.0.3"
+    "react-scripts": "^4.0.3",
+    "typescript": "^4.7.4"
   },
   "scripts": {
     "start": "react-scripts start",
