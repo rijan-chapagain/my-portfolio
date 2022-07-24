@@ -1,8 +1,8 @@
 # my_portfolio
 
-# react-portfolio
+[![pages-build-deployment](https://github.com/rijan-chapagain/my-portfolio/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master)](https://github.com/rijan-chapagain/my-portfolio/actions/workflows/pages/pages-build-deployment)
 
-A React based personal portfolio app using create-react-app and React Router.
+A React based personal portfolio app using create-react-app, Material-Ui and React Router.
 
 # Tools
 
