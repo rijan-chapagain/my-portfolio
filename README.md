@@ -1,6 +1,6 @@
-# my_portfolio
+# my-portfolio
 
-[![pages-build-deployment](https://github.com/rijan-chapagain/my-portfolio/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master)](https://github.com/rijan-chapagain/my-portfolio/actions/workflows/pages/pages-build-deployment)
+[![pages-build-deployment](https://github.com/rijan-chapagain/my-portfolio/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/rijan-chapagain/my-portfolio/actions/workflows/pages/pages-build-deployment)
 
 A React based personal portfolio app using create-react-app, Material-Ui and React Router.
 
